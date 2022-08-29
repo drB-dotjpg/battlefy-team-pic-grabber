@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: dimgray;
+}
+
+.header {
+    background-color: lightgray;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.header > .title {
+    font-size: 3em;
+}
+
+.header > #input-id {
+    width: 100%;
+    font-size: 2em;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    background-color: lightgray;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 2rem;
+    max-width: 300px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.team > .name{
+    font-size: 1.5em;
+    margin-bottom: .5rem;
+}
+
+.team > img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+footer {
+    margin: 1rem;
+    color: lightgray;
+}
